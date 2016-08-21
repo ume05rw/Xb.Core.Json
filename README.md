@@ -1,7 +1,7 @@
 Xb.Core.Json
 ====
 
-Xamarin Ready, Json Library(PCL, depend Xb.Core) for .Net Framework 4.5 or later.
+Xamarin Ready, Json Library(PCL) for .Net Framework 4.5 or later.
 
 ## Description
 It's Simple Lybrary for Json. Http-Query on JSON, Stringify, and Parse.
