@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xb.Core.Json.PCL4.5", "Xb.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextXb.Core.Json", "TextXb.Core.Json\TextXb.Core.Json.csproj", "{63306A4A-D521-4AAC-B6E4-F85478CF57D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xb.Core.Json.FW4.5", "Xb.Core.Json.FW4.5\Xb.Core.Json.FW4.5.csproj", "{52D769DE-4913-47FF-B3F0-2CAE80040CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xb.Core.Json.STD1.1", "Xb.Core.Json.STD1.1\Xb.Core.Json.STD1.1.csproj", "{82558F03-3014-4A3A-8F5D-BE0AADF5EC4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{63306A4A-D521-4AAC-B6E4-F85478CF57D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63306A4A-D521-4AAC-B6E4-F85478CF57D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63306A4A-D521-4AAC-B6E4-F85478CF57D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D769DE-4913-47FF-B3F0-2CAE80040CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D769DE-4913-47FF-B3F0-2CAE80040CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D769DE-4913-47FF-B3F0-2CAE80040CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D769DE-4913-47FF-B3F0-2CAE80040CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82558F03-3014-4A3A-8F5D-BE0AADF5EC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82558F03-3014-4A3A-8F5D-BE0AADF5EC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82558F03-3014-4A3A-8F5D-BE0AADF5EC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82558F03-3014-4A3A-8F5D-BE0AADF5EC4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
