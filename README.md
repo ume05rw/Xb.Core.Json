@@ -1,18 +1,20 @@
 Xb.Core.Json
 ====
 
-Xamarin Ready, Json Library(PCL) for .Net Framework 4.5 or later.
+Xamarin & .NET Core Ready, Json Library.
 
 ## Description
-It's Simple Lybrary for Json. Http-Query on JSON, Stringify, and Parse.
+It's Tiny Lybrary for Json. Http-Query on JSON, Stringify, and Parse.
+  
+Supports .NET4.5, .NET-PCL4.5, .NET Standard1.1
 
 ## Requirement
 [Xb.Core](https://github.com/ume05rw/Xb.Core), 
 [Json.NET](http://www.newtonsoft.com/json)
 
 ## Usage
-1. Add reference [Xb.Core.dll](https://github.com/ume05rw/Xb.Core.Json/blob/master/binary/Xb.Core.dll), [Xb.Json.dll](https://github.com/ume05rw/Xb.Core.Json/blob/master/binary/Xb.Json.dll), and [Newtonsoft.Json.dll](https://github.com/ume05rw/Xb.Core.Json/blob/master/binary/Newtonsoft.Json.dll) to your project.
-2. Create Instance Xb.Net.HttpJson, or Call Static Methods Xb.Any()
+1. [Add NuGet Package](https://www.nuget.org/packages/Xb.Core.Json/) to your project.
+2. Create Instance Xb.Net.HttpJson, or Call Static Methods Xb.Type.Json.Any()
 
 Namespace and Methods are...
 
