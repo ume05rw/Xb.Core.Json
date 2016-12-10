@@ -67,9 +67,9 @@
     <Compile Include="Xb\Type\JsonTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xb.Core.Json\Xb.Core.Json.csproj">
+    <ProjectReference Include="..\Xb.Core.Json\Xb.Core.Json.PCL4.5.csproj">
       <Project>{534ca167-6bfb-49df-93db-fe1bad721009}</Project>
-      <Name>Xb.Core.Json</Name>
+      <Name>Xb.Core.Json.PCL4.5</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
