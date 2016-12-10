@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xb.Core.Json.PCL4.5", "Xb.Core.Json\Xb.Core.Json.PCL4.5.csproj", "{534CA167-6BFB-49DF-93DB-FE1BAD721009}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xb.Core.Json.PCL4.5", "Xb.Core.Json.PCL4.5\Xb.Core.Json.PCL4.5.csproj", "{534CA167-6BFB-49DF-93DB-FE1BAD721009}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextXb.Core.Json", "TextXb.Core.Json\TextXb.Core.Json.csproj", "{63306A4A-D521-4AAC-B6E4-F85478CF57D5}"
 EndProject

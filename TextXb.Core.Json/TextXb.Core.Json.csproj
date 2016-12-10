@@ -35,15 +35,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\Xb.Core.Json\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.XML" />
-    <Reference Include="Xb.Core">
-      <HintPath>..\Xb.Core.Json\Xb.Core.dll</HintPath>
+    <Reference Include="Xb.Core, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xb.Core.1.0.3\lib\net45\Xb.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <Choose>
@@ -67,12 +69,13 @@
     <Compile Include="Xb\Type\JsonTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xb.Core.Json\Xb.Core.Json.PCL4.5.csproj">
+    <ProjectReference Include="..\Xb.Core.Json.PCL4.5\Xb.Core.Json.PCL4.5.csproj">
       <Project>{534ca167-6bfb-49df-93db-fe1bad721009}</Project>
       <Name>Xb.Core.Json.PCL4.5</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Xb\Net\json.php" />
   </ItemGroup>
   <Choose>
